@@ -290,7 +290,7 @@ form {
 
 .popular__btn-container {
     text-align: center;
-    margin: 60px 0 120px 0;
+    margin: 60px 0 140px 0;
 }
 
 .popular__btn {
@@ -342,4 +342,63 @@ form {
 .brands__brand {
     width: 14%;
     height: 10%;
+}
+
+
+/* =====newcomer section */
+
+.newcomer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.newcomer__content {
+    width: 27%;
+}
+
+.newcomer__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.newcomer__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 20px 0 50px;
+}
+
+.newcomer__btn {
+    background: #FF6E30;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 8px;
+    padding: 11px 23px;
+    border: none;
+    transition: 0.4s ease;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -ms-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+}
+
+.newcomer__btn:hover {
+    background: #28b3cb;
+    color: #000;
+}
+
+.newcomer__row {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.newcomer__card {
+    width: 40%;
 }
