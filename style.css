@@ -314,3 +314,32 @@ form {
     background: #FF6E30;
     color: #fff;
 }
+
+
+/* =====brands section===== */
+
+.brands {
+    width: 100%;
+    padding: 50px 80px;
+    box-shadow: 3px 4px 15px #0f0808;
+    border-radius: 22px;
+}
+
+.brands__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 40px;
+}
+
+.brands__row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brands__brand {
+    width: 14%;
+    height: 10%;
+}
