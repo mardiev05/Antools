@@ -177,6 +177,7 @@ form {
     line-height: 130%;
     text-align: center;
     color: rgba(255, 255, 255, 0.9);
+    margin-top: 150px;
 }
 
 .popular__text {
@@ -283,6 +284,32 @@ form {
 }
 
 .popular__card-link:hover {
+    background: #FF6E30;
+    color: #fff;
+}
+
+.popular__btn-container {
+    text-align: center;
+}
+
+.popular__btn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FF6E30;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #1E252B;
+    border: none;
+    box-shadow: 3px 4px 15px #0b0f13;
+    transition: 0.4s ease;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -ms-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+}
+
+.popular__btn:hover {
     background: #FF6E30;
     color: #fff;
 }
