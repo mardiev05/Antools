@@ -152,12 +152,23 @@ form {
 
 .awesome__input-btn:hover {
     background: #28b3cb;
+    color: #000;
 }
 
 .awesome__icons i {
     color: #fff;
     font-size: 25px;
     margin-right: 8%;
+    cursor: pointer;
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+}
+
+.awesome__icons i:hover {
+    color: #ff0000;
 }
 
 .awesome__img {
@@ -263,6 +274,10 @@ form {
 
 .popular__card-links .fa-heart:hover {
     color: #ff0000;
+}
+
+.popular__card-links .fa-folder-open:hover {
+    color: rgb(5, 197, 255);
 }
 
 .popular__card-link {
@@ -401,4 +416,94 @@ form {
 
 .newcomer__card {
     width: 40%;
+}
+
+
+/* =====ronald===== */
+
+.ronald {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.ronald i {
+    width: 10%;
+    font-size: 35px;
+    color: #888;
+}
+
+.ronald i:last-child {
+    text-align: end;
+    color: #FF6E30;
+}
+
+.ronald_img.cont {
+    width: 30%;
+    position: relative;
+}
+
+.ronald__img {
+    width: 100%;
+}
+
+.ronald__info {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    color: rgba(255, 253, 253, 0.78);
+    padding: 15px;
+    background: rgba(40, 48, 54, 0.2);
+    backdrop-filter: blur(50px);
+    width: 50%;
+    border-radius: 15px;
+    position: absolute;
+    left: 30%;
+    bottom: 10%;
+}
+
+.ronald__info span {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: rgba(255, 253, 253, 0.55);
+}
+
+.ronald__content {
+    width: 40%;
+    background-image: url(images/a.png);
+    background-repeat: no-repeat;
+}
+
+.ronald__text {
+    margin-top: 55px;
+    margin-left: 8%;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.ronald__line.text--center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.line {
+    width: 3%;
+    height: 5px;
+    background: #283036;
+    border-radius: 60px;
+    margin-right: 2%;
+}
+
+.line:nth-child(2) {
+    background: #FF6E30;
 }
